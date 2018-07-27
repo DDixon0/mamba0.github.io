@@ -205,17 +205,17 @@ let W, H;
 let spaceExplo, spaceBlip, spaceHurt, spaceLaser, spaceEnemy;
 
 function preload() {
-    spaceExplo = loadSound('spaceExplo.ogg');
-    spaceBlip = loadSound('spaceBlip.ogg');
-    spaceHurt = loadSound('spaceHurt.ogg');
-    spaceLaser = loadSound('spaceLaser.ogg');
-    spaceEnemy = loadImage('spaceEnemyImg.png');
+    spaceExplo = loadSound('space/spaceExplo.ogg');
+    spaceBlip = loadSound('space/spaceBlip.ogg');
+    spaceHurt = loadSound('space/spaceHurt.ogg');
+    spaceLaser = loadSound('space/spaceLaser.ogg');
+    spaceEnemy = loadImage('space/spaceEnemyImg.png');
 
 
 }
 
 function setup(){
-    createCanvas(windowWidth,windowHeight);
+    createCanvas(windowWidth,window.innerHeight);
     background(0,0,0);
     W = width;
     H = height;

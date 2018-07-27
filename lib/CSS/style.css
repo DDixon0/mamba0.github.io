@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    /* font-family: 'Unica One'; */
+    margin: 0;
+}
+
+.header-part {
+    background-color: black;
+    height: 75px;
+}
+
+#catchPhrase{
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+
+.header-part img{
+    display: inline;
+    float: left;
+    width: 64px;
+    height: 64px;
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+
+.text{
+    color: white;
+}
